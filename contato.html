@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <title>Trilha HTML - Clínica Projeto</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="./index.html">
+                    <span class="material-symbols-rounded">home</span>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="./clinica.html">
+                    <span class="material-symbols-rounded">info</span>
+                    <span>Sobre nós</span>
+                </a>
+            </li>
+            <li><a href="./horario-atendimento.html">
+                    <span class="material-symbols-rounded">schedule</span>
+                    <span>Nossos Horários</span>
+                </a>
+            </li>
+            <li>
+                <a href="./contato.html">
+                    <span class="material-symbols-rounded">phone_callback</span>
+                    <span>Contato</span>
+
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="conteudo-pagina">
+        <header>
+            <img src="./img/logo.jpg" alt="Logo da clínica" width="50px">
+            <h1>Clínica Odontológica</h1>
+        </header>
+
+        <main>
+            <img src="./img/contato.jpg" alt="imagem da clínica" width="100%">
+            <section>
+                <h1>Nossos Contatos</h1>
+                <ul>
+                    <li>Ligue: +55 99 9 9999-9999</li>
+                    <li>Endereço: Rua tal, numero 00, quadra 00 - bairro - cidade </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127546.7041949745!2d-44.34052537830775!3d-2.560629555257076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68ff06f7f6d21%3A0x983102e459a3de47!2zU8OjbyBMdcOtcywgTUE!5e0!3m2!1spt-BR!2sbr!4v1727998755769!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0; border-radius: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <article class="formulario-contato">
+                <h1>Envie-nos uma mensagem</h1>
+                <form style="display: flex; flex-direction: column;">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="type">Assunto:</label>
+                    <input type="text" id="type" name="type" required><br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea><br>
+                    <div style="display: flex;">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </article>
+        </main>
+
+        <footer>
+            <p>Clínica Odontologica. Entre em <strong><a href="./contato.html">contato</a></strong> conosco.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
